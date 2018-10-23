@@ -10,8 +10,7 @@ import java.sql.Statement;
 import java.util.Properties;
 
 /**
- * 操作JDBC
- * @author Administrator
+ * 操作JDBC工具类
  */
 public class MyJdbcUtil {
 	
