@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+    name="jdbc/EmployeeDB" 
+	auth="Container" 
+	type="javax.sql.DataSource"
+	username="root" 
+	password="123456" 
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql:///day18?useUnicode=true&amp;characterEncoding=UTF-8"
+	maxActive="8" 
+	maxIdle="4" />
+</Context>
