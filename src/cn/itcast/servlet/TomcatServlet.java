@@ -25,16 +25,17 @@ public class TomcatServlet extends HttpServlet {
 		try {
 			// 先获取连接池对象
 			Context initCtx = new InitialContext(); 
-			Context envCtx = (Context) initCtx.lookup("java:comp/env"); 
+			Context envCtx = (Context) initCtx.lookup("java:comp/env");
 			// SUN连接池对象(二次查询)
 			DataSource ds = (DataSource) envCtx.lookup("jdbc/EmployeeDB");
 			// 获取链接
 			// 获取链接
 			conn = ds.getConnection();
 			// 编写SQL
-			String sql = "delete from t_account where id = ?";
+			String sql = "update t_account set username = ? where id = ?";
 			stmt = conn.prepareStatement(sql);
-			stmt.setInt(1, 4);
+			stmt.setString(1, "天启");
+			stmt.setInt(2, 5);
 			stmt.executeUpdate();
 		} catch (Exception e) {
 			e.printStackTrace();
