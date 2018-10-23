@@ -11,14 +11,13 @@ import org.junit.Test;
 import cn.itcast.utils.MyJdbcUtil;
 
 /**
- * 使用JDBC操作事物
- * @author Administrator
- *
+ * 使用JDBC操作事务
  */
 public class Demo1 {
 	
 	/**
-	 * 
+	 * 带有设置保存点
+	 * Savepoint sp = conn.setSavepoint();
 	 */
 	@Test
 	public void run2(){
