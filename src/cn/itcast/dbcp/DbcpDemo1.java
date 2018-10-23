@@ -13,8 +13,7 @@ import org.junit.Test;
 import cn.itcast.utils.MyJdbcUtil;
 
 /**
- * DBCP连接池快速入门
- * 
+ * DBCP连接池
  */
 public class DbcpDemo1 {
 	
