@@ -8,8 +8,7 @@ import java.sql.Statement;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 /**
- * 操作JDBC
- * @author Administrator
+ * C3P0修改JDBC工具类
  */
 public class MyJdbcUtil2 {
 	
