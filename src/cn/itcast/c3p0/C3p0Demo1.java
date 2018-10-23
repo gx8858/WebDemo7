@@ -10,7 +10,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 import cn.itcast.utils.MyJdbcUtil;
 
 /**
- * C3P0连接池快速入门
+ * C3P0连接池
  */
 public class C3p0Demo1 {
 	
