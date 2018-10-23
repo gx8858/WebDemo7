@@ -17,6 +17,6 @@
 
   <servlet-mapping>
     <servlet-name>TomcatServlet</servlet-name>
-    <url-pattern>/tomact1</url-pattern>
+    <url-pattern>/tomcat1</url-pattern>
   </servlet-mapping>
 </web-app>
